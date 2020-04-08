@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity"
+    android:background="@drawable/login_back">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="169dp"
+        android:layout_height="108dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="110dp"
+        android:background="@drawable/login"
+        />
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="347dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:drawableLeft="@drawable/username"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="20dp"
+        android:hint="Username"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent"
+        android:background="@drawable/edit_round"/>
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="347dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/edit"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="18dp"
+        android:hint="Password"
+        android:drawableLeft="@drawable/user"
+        android:textColor="@color/colorAccent"
+        android:inputType="textPassword"
+        android:textColorHint="@color/colorAccent"
+        android:background="@drawable/edit_round"/>
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="161dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="209dp"
+        android:text="Login"
+        android:background="@drawable/edit_round"
+
+
+
+
+        />
+
+
+
+</RelativeLayout>

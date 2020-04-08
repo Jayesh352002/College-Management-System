@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BB9059"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="Add New Student "
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:textSize="20dp"
+            android:hint="Name"
+            android:inputType="textPersonName" />
+
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:textSize="20dp"
+            android:inputType="number"
+            android:hint="Enrollment No "/>
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:textSize="20dp"
+            android:inputType="number"
+            android:hint="Roll No  "/>
+
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:textSize="20dp"
+            android:inputType="textPersonName"
+            android:hint="Address "
+            />
+
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:textSize="20dp"
+            android:inputType="number"
+            android:hint="Age"
+            />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:textSize="20dp"
+            android:text="Select Gender"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg">
+
+            <RadioButton
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:text="Male"
+                android:textSize="20dp"
+                android:id="@+id/r1"/>
+            <RadioButton
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:text="Female"
+                android:textSize="20dp"
+                android:id="@+id/r2"/>
+        </RadioGroup>
+
+
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:textSize="20dp"
+            android:inputType="phone"
+            android:hint="Mobile No " />
+
+
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:textSize="20dp"
+            android:inputType="date"
+            android:hint="Birth Date"
+            />
+
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:textSize="20dp"
+            android:inputType="textEmailAddress"
+            android:hint="Email ID "
+            />
+
+        <EditText
+            android:id="@+id/editText9"
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:textSize="20dp"
+            android:inputType="numberDecimal"
+            android:hint="SSC Percentage " />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:text="Select Branch"/>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/spin">
+
+        </Spinner>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:text="Select Year"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/list"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:text="Submit"
+            android:textSize="24sp"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+</ScrollView>
